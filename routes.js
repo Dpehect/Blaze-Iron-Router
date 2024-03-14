@@ -4,7 +4,7 @@ Router.configure({
   layoutTemplate: 'layout' 
 });
 
-Router.route('/', function () {
+Router.route('/home', function () {
   this.render('home');
 });
 
